@@ -1,6 +1,6 @@
 Vagrant Libpostal
 ==============
-[Vagrant](https://vagrantup.com) image for working with [libpostal](https://github.com/openvenues/libpostal), all-in-one, i18n friendly address standardization and parsing library.
+[Vagrant](https://www.vagrantup.com) image for working with [libpostal](https://github.com/openvenues/libpostal), all-in-one, i18n friendly address standardization and parsing library.
 
 Provides install for C base, Python bindings (also used for training the model), and [nodejs bindings](https://github.com/openvenues/node-postal).
 
