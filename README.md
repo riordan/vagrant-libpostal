@@ -4,6 +4,12 @@ Vagrant Libpostal
 
 Provides install for C base, Python bindings (also used for training the model), and [nodejs bindings](https://github.com/openvenues/node-postal).
 
+## Installation
+### Pre-requirements:
+* Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+* Install [Vagrant](http://www.vagrantup.com/downloads)
+* Add `ubuntu/trusty64` vm image for your machine
+> `vagrant box add ubuntu/trusty64`
 
 ## Node bindings
 
