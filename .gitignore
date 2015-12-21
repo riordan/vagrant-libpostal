@@ -1,0 +1,9 @@
+# Standards
+.vagrant
+.DS_Store
+node_modules
+
+#Bonus ignores
+nodeTest
+data-libpostal
+libpostal
