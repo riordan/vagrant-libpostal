@@ -32,3 +32,5 @@ Note: It'll try to launch the web browser w3m inside your terminal. It's harmles
 To stop iPython notebook, press: `ctrl+c` and `y`es
 
 You should be able to get to iPython's web interface on your host machine's browser at: [http://127.0.0.1:8888](http://127.0.0.1:8888).
+
+__NOTE:__ Vagrant will FIGHT YOU if you're already running something on port 8888 (i.e. another iPython notebook) and won't start. You'll have to stop it or change the forwarded port.
