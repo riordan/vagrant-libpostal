@@ -80,7 +80,7 @@ Vagrant.configure(2) do |config|
     sudo ldconfig
 
     sudo apt-get install -y python python-dev python-setuptools python-pip
-    sudo python setup.py install
+    sudo pip install git+https://github.com/openvenues/pypostal.git
     sudo pip install "ipython[notebook]"
 
 
